@@ -1,0 +1,8 @@
+CREATE TABLE `articles` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `URL` varchar(1024) NOT NULL,
+  `ARCHIVED` bit(1) DEFAULT NULL,
+  `FAVORITE` bit(1) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+);
+
